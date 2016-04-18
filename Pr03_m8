@@ -1,0 +1,19 @@
+package pr03_m8;
+
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Pr03_m8 {
+    public static void main(String[] args) {
+        Set<Integer> hs = new HashSet<Integer>();
+        hs.add(12);
+        hs.add(4);
+        hs.add(6);
+        hs.add(3);
+        hs.add(8);
+
+        System.out.println("El número menor del conjunto es... "
+                + Collections.min(hs));
+    }
+}
